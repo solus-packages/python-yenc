@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>python-yenc</Name>
+        <Packager>
+            <Name>Shawn W Dunn</Name>
+            <Email>sfalken@cloverleaf-linux.org</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">raw yEnc encoder/decoder</Summary>
+        <Description xml:lang="en">This a fairly simple module, it provide only raw yEnc encoding/decoding with builitin crc32 calculation. Header parsing, checkings and yenc formatting are left to you (see examples directory for possible implementations). The interface was originally intended to be similar to the uu module from Python standard library. Version 0.2 changed a bit the previous (0.1)  behaviour, but it should be more usable and flexible (now you can encode/decode from and to standard input and output and use filenames instead of file objects as arguments for encode() and decode() )
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-yenc</Name>
+        <Summary xml:lang="en">raw yEnc encoder/decoder</Summary>
+        <Description xml:lang="en">This a fairly simple module, it provide only raw yEnc encoding/decoding with builitin crc32 calculation. Header parsing, checkings and yenc formatting are left to you (see examples directory for possible implementations). The interface was originally intended to be similar to the uu module from Python standard library. Version 0.2 changed a bit the previous (0.1)  behaviour, but it should be more usable and flexible (now you can encode/decode from and to standard input and output and use filenames instead of file objects as arguments for encode() and decode() )
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/_yenc.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/yenc-0.3-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/yenc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/yenc.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-10-01</Date>
+            <Version>0.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Shawn W Dunn</Name>
+            <Email>sfalken@cloverleaf-linux.org</Email>
+        </Update>
+    </History>
+</PISI>
