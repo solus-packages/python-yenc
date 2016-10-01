@@ -4,8 +4,8 @@ release    : 1
 source     :
     - http://sabnzbd.sourceforge.net/yenc-0.3.tar.gz : fb04fea7c5821345608fa01728ce5356b6dfb2d3e469e59e3fd31b88f45fb313
 license    : GPL-2.0
-component  : programming.python 
-summary    : raw yEnc encoder/decoder 
+component  : programming.python
+summary    : raw yEnc encoder/decoder
 description: |
     This a fairly simple module, it provide only raw yEnc encoding/decoding with builitin crc32 calculation. Header parsing, checkings and yenc formatting are left to you (see examples directory for possible implementations). The interface was originally intended to be similar to the uu module from Python standard library. Version 0.2 changed a bit the previous (0.1)  behaviour, but it should be more usable and flexible (now you can encode/decode from and to standard input and output and use filenames instead of file objects as arguments for encode() and decode() )
 setup      : |
